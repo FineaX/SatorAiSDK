@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name          = 'SatorAiSDK'
-  spec.version       = '1.0.1'
+  spec.version       = '1.0.2'
   spec.summary       = 'Core Library for SatorAiSDK'
   spec.description   = 'SatorAiSDK'
   spec.homepage      = 'https://github.com/FineaX/SatorAiSDK/tree/main/SatorAiSDK.xcframework'
@@ -17,4 +17,5 @@ Pod::Spec.new do |spec|
   spec.dependency 'MJRefresh'
   spec.dependency 'MBProgressHUD'
   spec.dependency 'onnxruntime-objc', '~> 1.18.0'
+  spec.dependency 'IQKeyboardManager'
 end
